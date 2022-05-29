@@ -21,7 +21,7 @@ export default function Home({ navigation }) {
 					<Button
 						title='双人模式'
 						onPress={()=>{
-							navigation.navigate("DuoPlay");
+							navigation.navigate("Play");
 						}}
 					/>
 				</View>

@@ -11,6 +11,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import Home from './views/Home';
 import Play from './views/Play';
+import EGame from './views/EGame';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import EPlay from './views/EPlay';
@@ -33,8 +34,9 @@ const App: () => Node = () => {
         screenOptions={{headerShown: false}}
       >
         <Stack.Screen name="Home" component={Home} />
-        <Stack.Screen name="DuoPlay" component={Play} />
+        <Stack.Screen name="Play" component={Play} />
         <Stack.Screen name="EPlay" component={EPlay} />
+        <Stack.Screen name="EGame" component={EGame} />
         <Stack.Screen name="IPlay" component={Play} />
         <Stack.Screen name="CreateUser" component={CreateUser} />
 

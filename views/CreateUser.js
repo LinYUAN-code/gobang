@@ -90,7 +90,6 @@ export default function CreateUser() {
             <TextInput
                 style={styles.input}
                 onChangeText={text => changeName(text)}
-                onSubmitEditing={changeName}
                 value={name}
             />
         </View>
